@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>标题</title>
+
+		<!-- base标签为页面上的所有链接过规定默认地址或默认目标 -->
+		<base href="http://www.baidu.com" />
+		<base target="_blank" />
+
+		<!-- basefont 标签定义基准字体。该标签可以为文档中的所有文本定义默认字体颜色、字体大小和字体系列。 -->
+		<basefont color="red" size="5" />
+	</head>
+
+	<body>
+
+		<h1>test</h1>
+
+		<!-- 这是一段注释.注释不会在浏览器中显示-->
+		<p>这是一个标签</p>
+		<a href="http://www.baidu.com">跳转到百度</a><br />
+
+		<!--  标签指示简称或缩写 -->
+		The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.<br/>
+
+		<!-- 首字母缩写 -->
+		<acronym title="World Wide Web">WWW</acronym>
+
+		<!-- <address> 标签定义文档或文章的作者/拥有者的联系信息。 -->
+		<address>
+			Written by <a href="mailto:webmaster@example.com">Donald Duck</a>.<br> 
+			Visit us at:<br>
+			Example.com<br>
+			Box 564, Disneyland<br>
+		</address>
+
+		<!-- <area> 标签定义图像映射中的区域 -->
+		<img src="images/1.png" alt="Planets" width="351" height="410" usemap="#planetmap" border="0" />
+
+		<map name="planetmap" id="planetmap">
+		  <area shape="circle" coords="174,192,69" href ="test-1.html" alt="Venus" />
+		  <area shape="circ" coords="202,65,50" href ="mercur.html" alt="Mercury" />
+		  <area shape="rect" coords="0,0,104,406" href ="test-1.html" alt="Sun" />
+		</map>
+
+		<!-- <article> 标签规定独立的自包含内容。 -->
+		<article>
+		  <h1>Internet Explorer 9</h1>
+		  <p>Windows Internet Explorer 9（简称 IE9）于 2011 年 3 月 14 日发布.....</p>
+		</article>
+
+		<p>Me and my family visited The Epcot center this summer.</p>
+		<aside>
+			<h4>Epcot Center</h4>
+			<h20>The Epcot Center is a theme park in Disney World, Florida.</h20>
+		</aside>
+
+		<!-- <audio> 标签定义声音，比如音乐或其他音频流。 -->
+		<audio src="call_ringtone.caf">
+		您的浏览器不支持 audio 标签。
+		</audio>
+
+		<!-- 标签规定粗体文本。 -->
+		<!-- 应该使用 <h1> - <h6> 来表示标题，使用 <em> 标签来表示强调的文本，应该使用 <strong> 标签来表示重要文本，应该使用 <mark> 标签来表示标注的/突出显示的文本。-->
+		<p>应该使用 h1 - h6 来表示标题 <br />
+		<b>b标签表示粗体文本</b><br />
+		<mark>mark标签表示标记/突出的文本</mark> <br />
+		<em>em表示强调的文本</em> <br />
+		<strong>strong表示重要文本</strong><br /></p>
+
+		<!-- learn JavaScript 
+		<script>
+		alert("My First JavaScript");
+		document.write("<h1>This is a heading</h1>");
+		document.write("<p>This is a paragraph</p>");
+		</script>
+
+		-->
+
+		<p id = "demo">A Paragraph</p>
+		<button type = "buttom" onclick="myFunction()">Try it </button>
+		<script language="JavaScript" src="myScript.js"></script>
+		<script type="text/javascript" src="myScript.js"></script>
+		<script src="myScript.js"></script>
+	</body>
+
+
+
+</html>
+
+

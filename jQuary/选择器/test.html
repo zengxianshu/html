@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- 网页的配置 -->
+	<head>
+		<mate charset="utf-8">
+		<title>jQuery选择器</title>
+		<!-- 百度CND -->
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>
+			$(function(){
+
+				// 元素选择器
+				$("p").click(function(){
+					$(this).hide();
+				});
+
+				// class 选择器
+				$("button.test").click(function(){
+					$("#test").show();
+				});
+				
+				$("button.toggle").click(function(){
+					$("p").toggle();
+				});
+
+
+			});
+		</script>
+	</head>
+
+	<!-- 用户看到的内容 -->
+	<body>
+
+
+		<p>点击隐藏</p>
+
+		<p>点击隐藏</p>
+
+		<p>点击隐藏</p>
+
+		<p>点击隐藏</p>
+
+		<p>点击隐藏</p>
+
+		<p id="test">点击隐藏test</p>
+
+		<button class="test">点击显示test</button>
+
+		<button class="toggle">切换显示／隐藏</button>
+
+
+	</body>
+
+</html>

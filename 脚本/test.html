@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- 网页的配置 -->
+	<head>
+		<mate charset="utf-8">
+		<title>脚本</title>
+	</head>
+
+	<!-- 用户看到的内容 -->
+	<body>
+		<script>
+			document.write("hello world")
+
+			function buttonClick()
+			{
+				document.getElementById("document_write").innerHTML="Hello JavaScript"
+			}
+		</script>
+		<noscript>抱歉，你的浏览器不支持 JavaScript</noscript>
+		<p>只有在浏览器不支持脚本或者禁用脚本时，才会显示 "noscript" 元素中的内容：</p>
+
+		<p id="document_write"></p>
+		<button type="button" onclick="buttonClick()">按钮</button>
+		
+	</body>
+
+</html>

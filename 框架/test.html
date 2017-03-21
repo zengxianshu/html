@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- 网页的配置 -->
+	<head>
+		<mate charset="utf-8">
+		<title>框架</title>
+	</head>
+
+	<!-- 用户看到的内容 -->
+	<body>
+		<p>使用iframe来显示目标链接页面</p>
+		<iframe src="demo_iframe" width="100%" height="200" name="iframe_baidu"></iframe>
+		<p><a href="https://baidu.com" target="iframe_baidu">打开百度</a></p>
+
+		<p>移除边框</p>
+		<iframe src="https://baidu.com" width="100%" height="200" frameborder="0"></iframe>
+
+
+
+		<p>一些旧的浏览器不支持 iframe.</p>
+		<p>如果浏览器不支持 iframe 则不会显示</p>
+
+	</body>
+
+</html>

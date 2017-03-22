@@ -12,14 +12,15 @@
 
 				// 元素选择器
 				$("p").click(function(){
-					$(this).hide();
+					$(this).text(~1);
 				});
 
 				// class 选择器
 				$("button.test").click(function(){
-					$("#test").show();
+					// $("#test").show();
+					$("#test").text(~2);
 				});
-				
+
 				$("button.toggle").click(function(){
 					$("p").toggle();
 				});
